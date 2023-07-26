@@ -1,6 +1,7 @@
 # homebrew-decodable
 
 Homebrew tap for installing the [Decodable](https://www.decodable.co/) CLI on MacOS.
+Refer to the [documentation](https://docs.decodable.co/docs/command-line-interface) for learning more about this tool.
 
 # Usage
 
