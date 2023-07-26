@@ -18,4 +18,4 @@ Homebrew tap for installing the [Decodable](https://www.decodable.co/) CLI on Ma
     brew install decodable
     ```
 
-You can re-run the `brew install` command at any time to upgrade to the latest release of the Decodable CLI 🍻
+You can re-run the `brew install` command at any time to upgrade to the latest release of the Decodable CLI 🍻.
