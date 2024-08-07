@@ -4,20 +4,20 @@
 class Decodable < Formula
   desc "Manage Decodable resources from the CLI"
   homepage "https://www.decodable.co/"
-  version "1.17.0"
+  version "1.18.0"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://releases.decodable.co/decodable-cli/darwin/amd64/decodable-cli-darwin-amd64-1.17.0.tar.gz"
-      sha256 "24bd2c97cab2efa820d88bcd6a7a010e7e44c71e5aca72535be0abba2ef7e970"
+      url "https://releases.decodable.co/decodable-cli/darwin/amd64/decodable-cli-darwin-amd64-1.18.0.tar.gz"
+      sha256 "20793ec2caba941b3a28207a5dc1fc27696f07a1392f2d781fa875d81a941afd"
 
       def install
         bin.install "bin/decodable"
       end
     end
     if Hardware::CPU.arm?
-      url "https://releases.decodable.co/decodable-cli/darwin/arm64/decodable-cli-darwin-arm64-1.17.0.tar.gz"
-      sha256 "8fe96d793d073942d20d96addd9b6d379b09ef96e37806fc24ab93de0e33a507"
+      url "https://releases.decodable.co/decodable-cli/darwin/arm64/decodable-cli-darwin-arm64-1.18.0.tar.gz"
+      sha256 "943dc4d701c9790f00b9e032f6cea6b21361490d39ccc88b1a6f5da969c92e93"
 
       def install
         bin.install "bin/decodable"
